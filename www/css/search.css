@@ -1,0 +1,57 @@
+﻿.main{
+    width:100%;
+    margin-top:60px;
+    color:black;
+    font-size:20px;
+
+}
+.main table{
+    width:100%;
+	border-collapse: collapse;
+}
+.main td{
+    height:40px;
+    width:50%;
+    border-bottom:1px solid #808080;
+ 
+}
+.list{
+    width:100%;
+    margin-top:60px;
+    color:black;
+    font-size:15px;
+}
+.list table{
+    width:100%;
+	border-collapse: collapse;
+}
+.list td{
+    border:1px solid gray;
+	border-collapse: collapse;
+    width:50%;
+	word-break: break-all;
+}
+.list img{
+	width: 100%;
+}
+.cart{
+	border-collapse: collapse;
+    width:100%;
+    margin-top:60px;
+    color:black;
+    font-size:18px;
+}
+.cart table{
+	border-collapse: collapse;
+    width:100%;
+}
+.cart td{
+    
+    border-bottom:1px solid #808080;
+}
+.cart img{
+    width:60%;
+}
+.radio_btn{
+    width:40px;
+}
