@@ -1,5 +1,5 @@
 ﻿function homeclick() {
-    window.location.href = "default.html";
+    window.location.href = "index.html";
 }
 function searchclick() {
     window.location.href = "search.html";
