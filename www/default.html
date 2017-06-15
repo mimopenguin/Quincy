@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>Quincy.WindowsPhone</title>
+
+    <link href="css/default.css" rel="stylesheet" />
+    <script src="js/default.js"></script>
+    <script src="js/homepage.js" type="text/javascript"></script>
+</head>
+<body class="phone">
+    <!--头部开始-->
+    <header>
+        <form class="search_bar">
+            <div class="search_logo">
+                <img src="images/default/logo2.png" />
+            </div>
+            <div class="search_input">
+                <input style="border-radius:20px;" type="text" placeholder="enter the keyword" />
+            </div>
+            <div class="search_btn" onclick="search()">search</div>
+        </form>
+    </header>
+    <!--头部结束-->
+
+    <div>
+        <table class="base">
+            <tr>
+                <td class="base_selection"><img src="images/default/icon1.png" /></td>
+                <td><img src="images/default/icon2.png" /></td>
+                <td><img src="images/default/icon3.png" /></td>
+            </tr>
+            <tr>
+                <td><a href="">Classify</a></td>
+                <td><a href="">My Orders</a></td>
+                <td><a href="">Present</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!--分类部分开始-->
+    <div>
+        <table class="nav" style="width:100%">
+            <tr>
+                <td class="nav_selection"><a href="">Clothing</a></td>
+                <td class="nav_selection"><a href="">BabyCare</a></td>
+                <td class="nav_selection"><a href="">Diapering</a></td>
+                <td class="nav_selection"><a href="">Feeding</a></td>
+            </tr>
+            <tr>
+                <td class="nav_selection"><a href="">Entertain</a></td>
+                <td class="nav_selection"><a href="">Bedding</a></td>
+                <td class="nav_selection"><a href="">Carriers</a></td>
+                <td class="nav_selection"><a href="">Gear</a></td>
+            </tr>
+        </table>
+    </div>
+    <!--分类部分结束-->
+
+    <!--中间内容开始-->
+    <div class="main1">
+        <img src="images/default/main1.png" style="width:100%" />
+    </div>
+    <div class="main2">
+        <img src="images/default/main2.png" style="width:100%" />
+    </div>
+    <div class="main3">
+        <img src="images/default/main3.png" style="width:100%" />
+    </div>
+    <!--中间内容结束-->
+    <div  class="login_link">
+    <a href="login.html">login</a>||
+    <a href="register.html">register</a>
+    </div>
+    <br/><br/><br/>
+    <br/><br/><br/>
+    <!--底部开始-->
+    <footer>
+        <div class="bar_bottom">
+            <table>
+                <tr>
+                    <td onclick="homeclick()"><img src="images/default/bottom_home.png" style="width:32%" /></td>
+                    <td><img onclick="searchclick()" src="images/default/bottom_search.png" style="width:32%" /></td>
+                    <td><img onclick="recclick()" src="images/default/bottom_recommand.png" style="width:32%" /></td>
+                    <td><img onclick="cartclick()" src="images/default/bottom_cart.png" style="width:32%" /></td>
+                </tr>
+                <tr>
+                    <td>Home</td>
+                    <td>Search</td>
+                    <td>Sale</td>
+                    <td>Cart</td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+    <!--底部结束-->
+
+
+
+</body>
+</html>
